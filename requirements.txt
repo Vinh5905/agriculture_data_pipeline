@@ -1,0 +1,10 @@
+numpy<2
+unstructured[pdf]
+python-dotenv
+
+## Run in terminal
+# pip install --upgrade google-genai
+
+## If unstructured[pdf] error
+# pip install pikepdf --prefer-binary
+# pip install pi-heif --prefer-binary

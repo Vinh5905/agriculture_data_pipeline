@@ -1,0 +1,8 @@
+# enviroment variables
+.env
+
+# folder data (pdf, word)
+data/
+
+__pycache__
+test.json
