@@ -1,5 +1,5 @@
 numpy<2
-unstructured[pdf]
+# unstructured[pdf]
 python-dotenv
 
 ## Run in terminal
@@ -8,3 +8,30 @@ python-dotenv
 ## If unstructured[pdf] error
 # pip install pikepdf --prefer-binary
 # pip install pi-heif --prefer-binary
+
+# Core Framework for LLM applications
+langchain
+langchain-core
+langchain-google-genai     # nếu bạn dùng Gemini
+
+# Neo4j Database Driver
+neo4j                     # Python driver chính thức
+neo4j-graphrag            # (tuỳ chọn) giúp tích hợp Neo4j + LangChain dễ hơn
+
+# LLM Libraries
+# openai            # Thư viện chính thức của OpenAI
+google-generativeai # Thư viện chính thức của Google
+
+# Environment variable management
+python-dotenv
+
+# For creating API server for the agent
+fastapi
+uvicorn
+
+# For data handling
+pandas            # Xử lý dữ liệu dạng bảng nếu cần
+
+# For development and testing in notebooks
+jupyter
+notebook
